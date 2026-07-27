@@ -1000,6 +1000,32 @@ iframe {
     bottom: 1rem;
   }
 }
+  @media (max-width: 600px) {
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .stat {
+    width: 100%;
+    text-align: center;
+  }
+
+  .stat-num {
+    font-size: 2rem;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+
+  .stat-label {
+    display: block;
+    margin-top: 0.25rem;
+    line-height: 1.3;
+  }
+}
 </style>
 </head>
 <body>
